@@ -10,7 +10,7 @@ synsaveinstance({})
 
 ```lua
 local Params = {
- RepoURL = "https://raw.githubusercontent.com/Utoh-Lua/UniversalSynSaveInstance/tree/main",
+ RepoURL = "https://raw.githubusercontent.com/Utoh-Lua/UniversalSynSaveInstance/main",
  SSI = "saveinstance",
 }
 local synsaveinstance = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
