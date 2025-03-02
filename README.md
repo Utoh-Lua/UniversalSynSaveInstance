@@ -9,8 +9,13 @@ synsaveinstance({})
 ```
 
 ```lua
-local synsaveinstance = loadstring(game:HttpGet("https://raw.githubusercontent.com/playvoras/UniversalSynSaveInstance/refs/heads/main/optimized.lua", true))()
-synsaveinstance({})
+local Params = {
+ RepoURL = "https://raw.githubusercontent.com/Utoh-Lua/UniversalSynSaveInstance/refs/heads/main/saveinstance.luau",
+ SSI = "saveinstance",
+}
+local synsaveinstance = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
+local Options = {} -- Documentation here https://luau.github.io/UniversalSynSaveInstance/api/SynSaveInstance
+synsaveinstance(Options)
 ```
 
 
