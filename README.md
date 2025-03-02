@@ -4,7 +4,7 @@
 # Loadstring
 
 ```lua
-local synsaveinstance = loadstring(game:HttpGet("https://raw.githubusercontent.com/playvoras/UniversalSynSaveInstance/refs/heads/main/saveinstance.luau", true))()
+local synsaveinstance = loadstring(game:HttpGet("https://raw.githubusercontent.com/Utoh-Lua/UniversalSynSaveInstance/refs/heads/main/saveinstance.luau", true))()
 synsaveinstance({})
 ```
 
